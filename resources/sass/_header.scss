@@ -1,0 +1,129 @@
+.jng-header {
+    font-family: Gotham;
+    hr {
+        border: 2px solid rgba(0, 0, 0, 0.1)
+    }
+    ul {
+        li {
+            a {
+
+                font-size: 25px;
+                line-height: 60px;
+                letter-spacing: 0.05em;
+                color: #373F51;
+            }
+        }
+    }
+
+    button {
+        background-color: #38ACB3;
+        color: white;
+        padding: 5px 32px;
+        border: none;
+        border-radius: 19px;
+    }
+    .contact-us {
+        color: #38ACB3;
+        background: #FFFFFF;
+        border: 1px solid #38ACB3;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.05em;
+        color: #000;
+        margin-top: 10rem;
+    }
+    p {
+        font-size: 24px;
+        line-height: 58px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+    .dropdown-menu {
+        button {
+            background-color: #38ACB3;
+            color: white;
+            padding: 7px 30px;
+            border: none;
+            border-radius: 19px;
+        }
+    }
+    .modal-content {
+        width: 700px;
+        height: 633px;
+        background: #FFFFFF;
+        border: 3px solid #38ACB3;
+        box-sizing: border-box;
+        border-radius: 30px;
+        .pop-header {
+            h5 {
+                font-family: Gotham;
+                font-size: 40px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+                color: #373F51;
+                margin-top: 5rem;
+            }
+        }
+        .pop-body {
+            padding: 1rem;
+            text-align: center;
+            input .form-control{
+                width: 515px;
+                height: 57px;
+                background: #FFFFFF;
+                border: 2px solid #38ACB3;
+                box-sizing: border-box;
+                border-radius: 30px;
+            }
+            ::placeholder {
+                font-family: Gotham;
+                font-size: 20px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+                color: #D8DBE2;
+            }
+        }
+        .pop-footer {
+            button {
+                width: 234px;
+                height: 56px;
+                background: #38ACB3;
+                border-radius: 30px;
+                font-family: Gotham;
+                font-size: 20px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                border: none;
+            }
+            p {
+                font-family: Gotham;
+                font-size: 15px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+                color: #000000;
+                margin: 0;
+            }
+            .forget-password {
+                font-family: Gotham;
+                font-size: 15px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
